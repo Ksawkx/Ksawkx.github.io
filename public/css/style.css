@@ -30,6 +30,7 @@ body {
     border: none;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 17px;
 
     p {
         margin: 0;
@@ -44,6 +45,7 @@ body {
     background-color: green;
     cursor: pointer;
     height: 40px;
+    border-radius: 17px;
 
     p {
         margin: 0;
@@ -79,7 +81,7 @@ body {
 
     img {
         width: auto;
-        height: 250px;
+        height: 150px;
     }
 }
 
