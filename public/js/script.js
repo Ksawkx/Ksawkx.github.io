@@ -62,7 +62,7 @@ let language = "english"; // Default language is English
 const no_button = document.getElementById('no-button');
 const yes_button = document.getElementById('yes-button');
 let i = 1;
-let size = 50;
+let size = 30;
 let clicks = 0;
 
 no_button.addEventListener('click', () => {
@@ -89,9 +89,9 @@ no_button.addEventListener('click', () => {
         i = 1;
         no_button.innerHTML = answers_no[language][0];
         yes_button.innerHTML = answers_yes[language];
-        yes_button.style.height = "50px";
-        yes_button.style.width = "50px";
-        size = 50;
+        yes_button.style.height = "30px";
+        yes_button.style.width = "30px";
+        size = 30;
     }
 });
 
