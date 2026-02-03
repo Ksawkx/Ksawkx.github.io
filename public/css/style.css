@@ -1,7 +1,7 @@
 body {
     background-image: url(bitmap.png);
     background-size: cover;      /* dopasowanie do ekranu */
-    background-position: center; /* wyśrodkowanie */
+ 
     background-repeat: no-repeat;/* bez powtarzania */
     font-family: Arial, sans-serif;
     margin: 0;
